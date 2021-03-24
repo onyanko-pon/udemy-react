@@ -1,14 +1,18 @@
 import React from "react";
 
+function Cat() {
+  return (<p>Meow!</p>)
+
+}
+
+
 function App() {
-
-
-  const dom =
+  return (
     <React.Fragment>
-      <label htmlFor={"bar"} >bar</label>
-      <input id={"bar"} type="text" value={"hoge"}  />
+      <Cat />
     </React.Fragment>
-  return dom;
+  );
+
 }
 
 export default App;
